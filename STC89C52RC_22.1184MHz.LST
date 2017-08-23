@@ -1,0 +1,127 @@
+C51 COMPILER V9.00   STC89C52RC_22_1184MHZ                                                 08/23/2017 09:01:55 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE STC89C52RC_22_1184MHZ
+OBJECT MODULE PLACED IN .\MCU_OUT\STC89C52RC_22.1184MHz.obj
+COMPILER INVOKED BY: E:\Keil\C51\BIN\C51.EXE STC89C52RC_22.1184MHz.c BROWSE DEBUG OBJECTEXTEND OBJECT(.\MCU_OUT\STC89C52
+                    -RC_22.1184MHz.obj)
+
+line level    source
+
+   1          #include "STC89C5xRC.h"
+   2          #define FOSC 22118400L
+   3          #define BAUD 9600
+   4          
+   5          bit busy;
+   6          struct
+   7          {
+   8                  int ch[8];
+   9                  int lst[8];
+  10          }Sample_Data;
+  11          
+  12          int Analyser_Scan();
+  13          int Sender();
+  14          void SendData(unsigned char dat);
+  15          void SendStr(char *s);
+  16          void delay();
+  17          
+  18          void delay()
+  19          {
+  20   1              unsigned char i, j;
+  21   1      
+  22   1              i = 36;
+  23   1              j = 217;
+  24   1              do
+  25   1              {
+  26   2                      while (--j);
+  27   2              } while (--i);
+  28   1      }
+  29          
+  30          int main()
+  31          {
+  32   1              P1=0x00;
+  33   1              P2=0x00;
+  34   1              SCON=0x50;
+  35   1              TMOD=0x20;
+  36   1          TH1=TL1=-(FOSC/12/32/BAUD);
+  37   1          TR1=1;
+  38   1              ES=1;
+  39   1              EA=1;
+  40   1              SendStr("ok!\n");
+  41   1              while(1)
+  42   1              {
+  43   2                      Analyser_Scan();
+  44   2                      Sender();
+  45   2                      delay();
+  46   2              }
+  47   1      }
+  48          
+  49          void Uart_Isr() interrupt 4 using 1
+  50          {
+  51   1          if (TI)
+  52   1          {
+  53   2              TI=0;
+  54   2              busy=0;
+C51 COMPILER V9.00   STC89C52RC_22_1184MHZ                                                 08/23/2017 09:01:55 PAGE 2   
+
+  55   2          }
+  56   1      }
+  57          
+  58          void SendData(unsigned char dat)
+  59          {
+  60   1          while (busy);
+  61   1              ACC=dat;
+  62   1          busy=1;
+  63   1          SBUF=ACC;
+  64   1      }
+  65          
+  66          void SendStr(char *s)
+  67          {
+  68   1          while (*s)
+  69   1          {
+  70   2              SendData(*s++);
+  71   2          }
+  72   1      }
+  73          
+  74          
+  75          int Analyser_Scan()
+  76          {
+  77   1              int i,s[2];
+  78   1              for(i=0;i<8;i++)
+  79   1                      Sample_Data.lst[i]=Sample_Data.ch[i];
+  80   1              s[0]=P1;
+  81   1              for(i=0;i<8;i++)
+  82   1              {
+  83   2                      Sample_Data.ch[i]=s[0]&0x01;
+  84   2                      s[0]=(s[0]>>1);
+  85   2              }
+  86   1              return 1;
+  87   1      }
+  88          
+  89          int Sender()
+  90          {
+  91   1              if(Sample_Data.ch[0])SendStr("1,");else SendStr("0,");
+  92   1              if(Sample_Data.ch[1])SendStr("3,");else SendStr("2,");
+  93   1              if(Sample_Data.ch[2])SendStr("5,");else SendStr("4,");
+  94   1              if(Sample_Data.ch[3])SendStr("7,");else SendStr("6,");
+  95   1              if(Sample_Data.ch[4])SendStr("9,");else SendStr("8,");
+  96   1              if(Sample_Data.ch[5])SendStr("11,");else SendStr("10,");
+  97   1              if(Sample_Data.ch[6])SendStr("13,");else SendStr("12,");
+  98   1              if(Sample_Data.ch[7])SendStr("15,");else SendStr("14,");
+  99   1              SendStr("\n");
+ 100   1              return 0;
+ 101   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    377    ----
+   CONSTANT SIZE    =     61    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     32       7
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

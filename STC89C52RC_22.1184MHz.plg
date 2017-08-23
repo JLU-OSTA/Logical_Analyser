@@ -1,0 +1,363 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+I:\0.Project\Logical_Analyser\STC89C52RC_22.1184MHz.uvproj
+Project File Date:  08/23/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(7): error C141: syntax error near '='
+STC89C52RC_22.1184MHZ.C(9): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(18): error C202: 'AUXR': undefined identifier
+STC89C52RC_22.1184MHZ.C(39): error C202: 'S': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(18): error C202: 'AUXR': undefined identifier
+STC89C52RC_22.1184MHZ.C(39): error C202: 'S': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(18): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHz.c(2): warning C318: can't open file 'stc89c52rc.h'
+STC89C52RC_22.1184MHZ.C(19): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHz.c(2): warning C318: can't open file 'stc89c52rc.h'
+STC89C52RC_22.1184MHZ.C(19): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(46): error C231: 'P0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(55): error C231: 'P1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(64): error C231: 'P2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(73): error C231: 'P3': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(82): error C231: 'PSW': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(83): error C231: 'ACC': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(84): error C231: 'B': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(85): error C231: 'SP': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(86): error C231: 'DPL': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(87): error C231: 'DPH': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(88): error C231: 'PCON': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(89): error C231: 'TCON': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(90): error C231: 'TMOD': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(91): error C231: 'TL0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(92): error C231: 'TL1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(93): error C231: 'TH0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(94): error C231: 'TH1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(95): error C231: 'IE': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(96): error C231: 'IP': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(97): error C231: 'SCON': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(98): error C231: 'SBUF': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(106): error C231: 'T2CON': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(108): error C231: 'RCAP2L': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(109): error C231: 'RCAP2H': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(110): error C231: 'TL2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(111): error C231: 'TH2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(137): error C231: 'CY': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(138): error C231: 'AC': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(139): error C231: 'F0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(140): error C231: 'RS1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(141): error C231: 'RS0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(142): error C231: 'OV': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(143): error C231: 'P': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(146): error C231: 'TF1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(147): error C231: 'TR1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(148): error C231: 'TF0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(149): error C231: 'TR0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(150): error C231: 'IE1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(151): error C231: 'IT1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(152): error C231: 'IE0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(153): error C231: 'IT0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(156): error C231: 'EA': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(158): error C231: 'ET2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(159): error C231: 'ES': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(160): error C231: 'ET1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(161): error C231: 'EX1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(162): error C231: 'ET0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(163): error C231: 'EX0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(167): error C231: 'PT2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(168): error C231: 'PS': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(169): error C231: 'PT1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(170): error C231: 'PX1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(171): error C231: 'PT0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(172): error C231: 'PX0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(175): error C231: 'RD': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(176): error C231: 'WR': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(177): error C231: 'T1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(178): error C231: 'T0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(179): error C231: 'INT1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(180): error C231: 'INT0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(181): error C231: 'TXD': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(182): error C231: 'RXD': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(185): error C231: 'SM0': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(187): error C231: 'SM1': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(188): error C231: 'SM2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(189): error C231: 'REN': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(190): error C231: 'TB8': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(191): error C231: 'RB8': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(192): error C231: 'TI': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(193): error C231: 'RI': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(205): error C231: 'T2EX': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(206): error C231: 'T2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(209): error C231: 'TF2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(210): error C231: 'EXF2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(211): error C231: 'RCLK': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(212): error C231: 'TCLK': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(213): error C231: 'EXEN2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(214): error C231: 'TR2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(215): error C231: 'C_T2': redefinition
+E:\KEIL\C51\INC\STC\STC89C5XRC.H(216): error C231: 'CP_RL2': redefinition
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(54): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ANALYSER_SCAN?STC89C52RC_22_1184MHZ
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDER?STC89C52RC_22_1184MHZ
+Program Size: data=77.0 xdata=0 code=177
+"STC89C52RC_22.1184MHz" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(54): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ANALYSER_SCAN?STC89C52RC_22_1184MHZ
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDER?STC89C52RC_22_1184MHZ
+Program Size: data=77.0 xdata=0 code=177
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ANALYSER_SCAN?STC89C52RC_22_1184MHZ
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDER?STC89C52RC_22_1184MHZ
+Program Size: data=77.0 xdata=0 code=177
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(33): error C141: syntax error near ']'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(33): error C141: syntax error near ']'
+STC89C52RC_22.1184MHZ.C(60): error C236: '_Sender': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(33): error C141: syntax error near ']'
+STC89C52RC_22.1184MHZ.C(60): error C236: '_Sender': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(33): error C141: syntax error near ']'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(33): error C214: illegal pointer conversion
+Target not created
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(59): warning C280: 'chsd': unreferenced local variable
+STC89C52RC_22.1184MHz.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=85.0 xdata=0 code=237
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=85.0 xdata=0 code=237
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(42): error C202: 'busy': undefined identifier
+STC89C52RC_22.1184MHZ.C(48): error C202: 'busy': undefined identifier
+STC89C52RC_22.1184MHZ.C(50): error C202: 'busy': undefined identifier
+STC89C52RC_22.1184MHZ.C(52): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(97): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(101): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(105): error C202: 'ch': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(6): error C129: missing ';' before 'struct'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(54): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(99): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(103): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(107): error C202: 'ch': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(54): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(97): warning C280: 'chsd': unreferenced local variable
+linking...
+Program Size: data=87.1 xdata=0 code=436
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(100): warning C206: 'elseSendStr': missing function-prototype
+STC89C52RC_22.1184MHZ.C(100): error C267: 'elseSendStr': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(100): warning C206: 'elseSendStr': missing function-prototype
+STC89C52RC_22.1184MHZ.C(100): error C267: 'elseSendStr': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+Program Size: data=87.1 xdata=0 code=811
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+Program Size: data=87.1 xdata=0 code=1126
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(36): warning C206: 'sENDsTR': missing function-prototype
+STC89C52RC_22.1184MHZ.C(36): error C267: 'sENDsTR': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SENDSTR?STC89C52RC_22_1184MHZ
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?INTERRUPT_FUC?STC89C52RC_22_1184MHZ
+Program Size: data=90.1 xdata=0 code=1139
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SENDSTR?STC89C52RC_22_1184MHZ
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?INTERRUPT_FUC?STC89C52RC_22_1184MHZ
+Program Size: data=90.1 xdata=0 code=1139
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?ANALYSER_SCAN?STC89C52RC_22_1184MHZ
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?INTERRUPT_FUC?STC89C52RC_22_1184MHZ
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SENDER?STC89C52RC_22_1184MHZ
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?INTERRUPT_FUC?STC89C52RC_22_1184MHZ
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SENDSTR?STC89C52RC_22_1184MHZ
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?INTERRUPT_FUC?STC89C52RC_22_1184MHZ
+Program Size: data=93.1 xdata=0 code=1166
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY?STC89C52RC_22_1184MHZ
+Program Size: data=47.1 xdata=0 code=675
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+Program Size: data=47.1 xdata=0 code=678
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+Program Size: data=47.1 xdata=0 code=663
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(44): error C267: 'Sender': requires ANSI-style prototype
+STC89C52RC_22.1184MHZ.C(99): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(108): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(95): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(95): warning C206: 'chr': missing function-prototype
+STC89C52RC_22.1184MHZ.C(95): error C267: 'chr': requires ANSI-style prototype
+STC89C52RC_22.1184MHZ.C(95): error C141: syntax error near ';'
+STC89C52RC_22.1184MHZ.C(99): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(108): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(95): warning C206: 'chr': missing function-prototype
+STC89C52RC_22.1184MHZ.C(95): error C267: 'chr': requires ANSI-style prototype
+STC89C52RC_22.1184MHZ.C(99): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(108): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(95): warning C206: 'chr': missing function-prototype
+STC89C52RC_22.1184MHZ.C(95): error C267: 'chr': requires ANSI-style prototype
+STC89C52RC_22.1184MHZ.C(99): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(108): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(95): warning C206: 'chr': missing function-prototype
+STC89C52RC_22.1184MHZ.C(95): error C267: 'chr': requires ANSI-style prototype
+STC89C52RC_22.1184MHZ.C(99): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(108): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(95): error C202: 'chr': undefined identifier
+STC89C52RC_22.1184MHZ.C(99): error C141: syntax error near '}'
+STC89C52RC_22.1184MHZ.C(108): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+STC89C52RC_22.1184MHZ.C(91): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(92): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(93): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(94): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(95): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(96): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(97): error C202: 'ch': undefined identifier
+STC89C52RC_22.1184MHZ.C(98): error C202: 'ch': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling STC89C52RC_22.1184MHz.c...
+linking...
+Program Size: data=45.1 xdata=0 code=481
+creating hex file from ".\MCU_OUT\STC89C52RC_22.1184MHz"...
+".\MCU_OUT\STC89C52RC_22.1184MHz" - 0 Error(s), 0 Warning(s).
